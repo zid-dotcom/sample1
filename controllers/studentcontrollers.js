@@ -16,7 +16,7 @@ exports.addstudents = async (req, res) => {
 
 
         if (!name || !email || !place) {
-            return res.status(406).json("please fill all fieldss")
+            return res.status(406).json("please fill all fields")
         }
 
         // if(!imageFile){
